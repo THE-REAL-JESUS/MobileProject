@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/black"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/searchByIDFB"
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Search by ID"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#737373" />
+
+    <Button
+        android:id="@+id/searchBtnFB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/blue"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/diaplayAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/blue"
+        android:text="Cancel" />
+</LinearLayout>

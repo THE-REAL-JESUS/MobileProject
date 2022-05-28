@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#323232">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/pic" />
+
+    <ImageButton
+        android:id="@+id/editButton"
+        android:layout_width="58dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="43dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="337dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#B1B0B0" />
+
+    <Button
+        android:id="@+id/addtoSQLBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="@color/blue"
+        android:text="Add to SQL"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+</RelativeLayout>

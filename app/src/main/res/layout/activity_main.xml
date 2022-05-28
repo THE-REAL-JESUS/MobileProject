@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <include layout="@layout/actionbar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/bebas_neue"
+            android:text="Mobile application project \n Talal Aleisa 200352"
+            android:textAlignment="center"
+            android:textColor="#BFBDBD"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/goToFireList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/blue"
+            android:text="View all Firebase entries"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/goToAddFirebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/blue"
+            android:text="Add new entry to firebase" />
+
+        <Button
+            android:id="@+id/goToChooseWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/blue"
+            android:text="Choose city for weather" />
+
+        <Button
+            android:id="@+id/goToSQLList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/blue"
+            android:text="View All SQL entries" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
